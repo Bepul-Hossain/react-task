@@ -44,7 +44,7 @@ const Problem2 = () => {
                             <h3 >Modal A</h3>
                             <section style={{display:'flex', justifyContent:'center'}}>
                                 {/* button A=> switch to modal B */}
-                                <button style={{backgroundColor:'#46139f'}} onClick={handleModal}>All Contacts</button>
+                                <button style={{backgroundColor:'#46139f'}}>All Contacts</button>
                                 {/* button B=> switch to modal A */}
                                 <button style={{backgroundColor:'#ff7f50'}} onClick={handleModal2}>Contact US</button>
                                 {/* button C */}
@@ -63,9 +63,9 @@ const Problem2 = () => {
                                 {/* button A=> switch to modal B */}
                                 <button style={{backgroundColor:'#46139f'}} onClick={handleModal}>All Contacts</button>
                                 {/* button B=> switch to modal A */}
-                                <button style={{backgroundColor:'#ff7f50'}} onClick={handleModal2}>Contact US</button>
+                                <button style={{backgroundColor:'#ff7f50'}}>Contact US</button>
                                 {/* button C */}
-                                <button style={{backgroundColor:'white', borderColor:'#46139f'}} type="button" onClick={handleModal}>
+                                <button style={{backgroundColor:'white', borderColor:'#46139f'}} type="button" onClick={handleModal2}>
                                     Close
                                 </button>
                             </section>
